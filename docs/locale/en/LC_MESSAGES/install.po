@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, AdvanceSoft Corporation
+# This file is distributed under the same license as the remoteLicense
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: remoteLicense \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-07 12:31+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../install.rst:3 ../../install.rst:17
+msgid "インストール"
+msgstr "Install"
+
+#: ../../install.rst:8
+msgid "ダウンロード"
+msgstr "Download"
+
+#: ../../install.rst:10
+msgid "インストーラーを以下のリンクからダウンロードしてください。"
+msgstr "Download the installer from the link below."
+
+#: ../../install.rst:12
+msgid "`remoteLicense <https://>`_"
+msgstr ""
+
+#: ../../install.rst:19
+msgid "インストーラーを実行します。言語の選択画面が出た場合は、インストール中に使用する言語を選択してください（ソフトウェア本体で使用する言語ではありません）。"
+msgstr ""
+"Launch the installer. If you see language selection "
+"window, choose a language during the installation (it is not the language"
+" used in the software itself)."
+
+#: ../../install.rst:21
+msgid "画面の指示に従い、インストールを行ってください。"
+msgstr "Follow displayed instructions to install."
+
+#: ../../install.rst:26
+msgid "起動"
+msgstr "Launch"
+
+#: ../../install.rst:28
+msgid "インストール時にショートカットを作成した場合は、ショートカットから起動してください。"
+msgstr ""
+"In case you made a shortcut during the installation, launch the software "
+"from the shortcut."
+
+#: ../../install.rst:30
+msgid ""
+"直接起動する場合は、インストール先の :file:`bin` フォルダーにある :file:`remoteLicense.exe` "
+"を起動してください。"
+msgstr ""
+"To directly launch the software, move to the :file:`bin` folder in the "
+"install destination, and then run :file:`remoteLicense.exe` ."
+
+#: ../../install.rst:35
+msgid "アンインストール"
+msgstr "Uninstall"
+
+#: ../../install.rst:37
+msgid "次のいずれかの方法でアンインストーラーを起動してください。"
+msgstr "Use one of the following procedures to run the uninstaller."
+
+#: ../../install.rst:39
+msgid "スタートボタンを右クリックし、「アプリと機能」を開きます。リストの中にあるremoteLicenseをクリックし、アンインストールボタンをクリックします。"
+msgstr ""
+"Right click Start button and open \"Apps and Features\"\\ . Click "
+"remoteLicense in the list and then click Uninstall button."
+
+#: ../../install.rst:40
+msgid ""
+"スタートメニューから「Windows システム ツール」内の「コントロール "
+"パネル」を開きます。「プログラムのアンインストール」（アイコン表示の場合は「プログラムと機能」）を開き、リストの中にあるremoteLicenseをダブルクリックします。"
+msgstr ""
+"From Start menu, open \"Control Panel\" in \"Windows System\"\\ . Open "
+"\"Uninstall a program\" (or \"Programs and Features\" in case of icons "
+"view) and double click remoteLicense in the list."
+
+#: ../../install.rst:41
+msgid ""
+"インストール先の :file:`_remoteLicense_installation` フォルダーにある :file:`Change "
+"remoteLicense Installation.exe` を起動します。"
+msgstr ""
+"Run :file:`remoteLicense Installation.exe` in "
+":file:`_remoteLicense_installation` in the install destination."
+
+#: ../../install.rst:43
+msgid "画面の指示に従い、アンインストールを行ってください。"
+msgstr "Follow displayed instructions to uninstall."
+
+#: ../../install.rst:47
+msgid "アンインストールの際に、"
+msgstr "During the uninstallation,"
+
+#: ../../install.rst:49
+msgid "ローカルの設定ファイル（\\ :file:`C:\\\\Users\\\\ユーザー名\\\\.remoteLicense`\\ ）"
+msgstr "local configuration file (\\ :file:`C:\\\\Users\\\\username\\\\.remoteLicense`\\ )"
+
+#: ../../install.rst:50
+msgid "サーバー上のライセンスファイル・ライセンスサーバー実行ファイル（\\ :file:`ホームディレクトリ/.remoteLicense/`\\ ）"
+msgstr "license file / license server executable files on server (\\ :file:`home directory/.remoteLicense/`\\ )"
+
+#: ../../install.rst:51
+msgid "サーバー上のライセンスファイルパスの設定（\\ :file:`ホームディレクトリ/.flexlmrc`\\ ）"
+msgstr "license file path setting on server (\\ :file:`home directory/.flexlmrc`\\ )"
+
+#: ../../install.rst:53
+msgid "は削除されずに残ります。"
+msgstr "are not removed."
+
+#: ../../install.rst:55
+msgid "また、インストールログファイルが残る場合があります。必要に応じ手動で削除してください。"
+msgstr ""
+"Also, installation log file may remain. In that case "
+"please remove them manually."
+

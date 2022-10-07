@@ -1,0 +1,169 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, AdvanceSoft Corporation
+# This file is distributed under the same license as the remoteLicense
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: remoteLicense \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-07 12:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../usage.rst:3
+msgid "使い方"
+msgstr "Usage"
+
+#: ../../usage.rst:8
+msgid "サーバー情報設定"
+msgstr "Server information settings"
+
+#: ../../usage.rst:10
+msgid ":guilabel:`Host` タブでサーバーへの接続に関する設定を行います。"
+msgstr "On :guilabel:`Host` tab, you can configure the connection to the server. "
+
+#: ../../usage.rst:12
+msgid "以下の項目を入力・設定してください。"
+msgstr "Enter and set the following items."
+
+#: ../../usage.rst:14
+msgid "Host Name"
+msgstr ""
+
+#: ../../usage.rst:16
+msgid "サーバーのホスト名（またはIPアドレス）を入力します。"
+msgstr "Enter the server host name (or IP address)."
+
+#: ../../usage.rst:18
+msgid "Port"
+msgstr ""
+
+#: ../../usage.rst:20
+msgid "ポート番号を入力します。通常は22です。"
+msgstr "Enter the port number. Typically it is 22."
+
+#: ../../usage.rst:22
+msgid "HTTP Proxy"
+msgstr ""
+
+#: ../../usage.rst:24
+msgid ""
+"サーバーへの接続にプロキシを使用します(SSH over HTTP)。使用する場合は、yesに設定してから |settingicon| "
+"ボタンでプロキシの情報を設定してください。"
+msgstr ""
+"Use proxy for the connection to the server (SSH over HTTP). To use it, "
+"toggle it to yes and set the proxy information from |settingicon| button."
+
+#: ../../usage.rst:32
+msgid "settingicon"
+msgstr ""
+
+#: ../../usage.rst:26
+msgid "User Name"
+msgstr ""
+
+#: ../../usage.rst:27
+msgid "Private Key"
+msgstr ""
+
+#: ../../usage.rst:28
+msgid "Password"
+msgstr ""
+
+#: ../../usage.rst:30
+msgid "サーバーにSSH接続する際のアカウント情報を入力します。認証の方式により、秘密鍵ファイルまたはパスワードを設定してください。"
+msgstr "Enter the account information for SSH connection to the server. Depending on the authentication method, set the private key file "
+"or enter the password."
+
+#: ../../usage.rst:34
+msgid ""
+"設定内容は保存され、次回以降は入力されたままの状態で起動します。設定は "
+":file:`C:\\\\Users\\\\ユーザー名\\\\.remoteLicense` に保存されています。"
+msgstr ""
+"Settings are saved and automatically filled from the next time launch on."
+
+#: ../../usage.rst:39
+msgid "ライセンス申請"
+msgstr "License request"
+
+#: ../../usage.rst:41
+msgid "サーバー情報設定後、 :guilabel:`Get Host ID` をクリックするとサーバー固有のHost IDを取得して表示します。"
+msgstr "After server information setting is completed, click :guilabel:`Get Host ID` to acquire Host ID which is unique to the server."
+
+#: ../../usage.rst:43
+msgid ":guilabel:`Send Mail of License Request` をクリックするとライセンス申請に必要な情報が表示されます。"
+msgstr "Click :guilabel:`Send Mail of License Request` to show the information used to request the license."
+
+#: ../../usage.rst:45
+msgid ":guilabel:`Mail` をクリックするとデフォルトのメールソフトで発行依頼メールの作成画面が開きますので、内容を記入してお送りください。"
+msgstr "click :guilabel:`Mail` to open the license request mail composing screen on your default mailer, then fill out the form and send it to us."
+
+#: ../../usage.rst:47
+msgid ""
+"または、ウィンドウ内の情報をコピーし、 support.nano@advancesoft.jp "
+"宛にご希望の製品・ライセンス種別と併せてお送りください。"
+msgstr "otherwise, copy the content of the window and send it to support.nano@advancesoft.jp with the product name and license type you want."
+
+#: ../../usage.rst:53
+msgid "ライセンスファイル設定"
+msgstr "License file setting"
+
+#: ../../usage.rst:55
+msgid "ライセンスファイルを受け取ったら、 :guilabel:`License` タブで設定します。"
+msgstr "Once you received the license file, set it on :guilabel:`License` tab."
+
+#: ../../usage.rst:57
+msgid ":guilabel:`Select License File` をクリックしてファイルを選択するか、ファイルをドラッグ＆ドロップしてください。"
+msgstr "Click :guilabel:`Select License File` and choose the file, or drag & drop the file."
+
+#: ../../usage.rst:59
+msgid "ファイルの内容が表示されれば設定完了です。"
+msgstr "Content of the file is displayed when setting is done."
+
+#: ../../usage.rst:64
+msgid "ライセンスサーバー起動・終了・状態表示"
+msgstr "Start / stop / check status of license server"
+
+#: ../../usage.rst:66
+msgid ""
+"ライセンスファイル設定後、ライセンスサーバーを起動するには、 :guilabel:`Start` タブを開き、 "
+":guilabel:`Execute \\`lmgrd'` をクリックします。"
+msgstr ""
+"After the license file setting is done, open :guilabel:`Start` tab and click :guilabel:`Execute \\`lmgrd'` "
+"to start the license server."
+
+#: ../../usage.rst:68
+msgid ""
+"同時に、製品の実行に必要なライセンスファイルパスの設定も行われます。環境変数 :envvar:`ADVANCED_LICENSE_FILE` "
+"を改めて設定する必要はありません。"
+msgstr ""
+"The license file path setting, which is required to use the product, is also performed at the same time. "
+"You don't have to set the environment variable :envvar:`ADVANCED_LICENSE_FILE` manually."
+
+#: ../../usage.rst:70
+msgid "本ツールを終了しても、ライセンスサーバーは起動したままの状態になります。"
+msgstr "The license server stays up even after this tool is closed."
+
+#: ../../usage.rst:72
+msgid ""
+"ライセンスサーバーを終了するには、 :guilabel:`Stop` タブを開き、 :guilabel:`Execute \\`lmdown'` "
+"をクリックします。"
+msgstr ""
+"To stop the license server, open :guilabel:`Stop` tab and click :guilabel:`Execute \\`lmdown'` ."
+
+#: ../../usage.rst:74
+msgid ""
+"ライセンスサーバーの状態を表示するには、 :guilabel:`Status` タブを開き、 :guilabel:`Execute "
+"\\`lmstat'` をクリックします。"
+msgstr ""
+"To display the status of the license server, open :guilabel:`Status` tab and click :guilabel:`Execute "
+"\\`lmstat'` ."
+

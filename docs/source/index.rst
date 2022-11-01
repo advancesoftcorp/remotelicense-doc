@@ -18,3 +18,4 @@ remoteLicense
    install
    usage
    link
+   version

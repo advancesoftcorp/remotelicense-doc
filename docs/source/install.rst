@@ -9,7 +9,7 @@
 
 インストーラーを以下のリンクからダウンロードしてください。
 
- `remoteLicense (ver.1.0) <https://github.com/advancesoftcorp/remotelicense-doc/releases/download/v1.0/install_remotelicense_windows_v1.0.exe>`_
+ `remoteLicense (ver.1.1) <https://www.nanolabo.advancesoft.jp/?wpdmdl=1012>`_
 
 .. _installer:
 

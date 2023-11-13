@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: remoteLicense \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-01 10:28+0900\n"
+"POT-Creation-Date: 2023-11-13 16:03+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,8 +32,8 @@ msgstr "Download the installer from the link below."
 
 #: ../../install.rst:12
 msgid ""
-"`remoteLicense (ver.1.1) "
-"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1012>`_"
+"`remoteLicense (ver.1.2) "
+"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1340>`_"
 msgstr ""
 
 #: ../../install.rst:19

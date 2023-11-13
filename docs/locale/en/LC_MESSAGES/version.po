@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: remoteLicense \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-06 11:42+0900\n"
+"POT-Creation-Date: 2023-11-13 15:29+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,8 +23,8 @@ msgid "バージョン情報"
 msgstr "Version Information"
 
 #: ../../version.rst:9
-msgid "2023/11/-- バージョン1.2"
-msgstr "2022/11/-- Version 1.2"
+msgid "2023/11/15 バージョン1.2"
+msgstr "2022/11/15 Version 1.2"
 
 #: ../../version.rst:8
 msgid "リモートサーバー接続時、ホスト鍵としてRSA/SHA-1(ssh-rsa)以外の形式に対応"

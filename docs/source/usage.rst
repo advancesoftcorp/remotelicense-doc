@@ -27,9 +27,20 @@
 - Private Key
 - Password
 
-   サーバーにSSH接続する際のアカウント情報を入力します。認証の方式により、秘密鍵ファイルまたはパスワードを設定してください。
+   サーバーにSSH接続する際のアカウント情報を入力します。
+
+   - パスワード認証の場合
+
+      :guilabel:`User Name` にユーザー名、 :guilabel:`Password` にパスワードを入力してください。 :guilabel:`Private Key` は使用しません。
+
+   - 公開鍵認証の場合
+
+      :guilabel:`User Name` にユーザー名を入力し、 :guilabel:`Private Key` をクリックして秘密鍵ファイルを選択してください（ |clear| でクリア）。パスフレーズが設定されている場合は :guilabel:`Password` に入力してください。
+
+      .. hint:: PuTTY形式の秘密鍵ファイル（拡張子 :file:`.ppk` ）はそのままではお使いいただけません。PEM形式またはOpenSSH形式に変換してお使いください。
 
 .. |settingicon| image:: /img/setting.png
+.. |clear| image:: /img/clear.png
 
 .. hint:: 設定内容は保存され、次回以降は入力されたままの状態で起動します。設定は :file:`C:\\Users\\ユーザー名\\.remoteLicense` に保存されています。
 

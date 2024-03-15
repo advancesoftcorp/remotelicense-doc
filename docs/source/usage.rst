@@ -13,31 +13,31 @@
 
 - Host Name
 
-   サーバーのホスト名（またはIPアドレス）を入力します。
+ サーバーのホスト名（またはIPアドレス）を入力します。
 
 - Port
 
-   ポート番号を入力します。通常は22です。
+ ポート番号を入力します。通常は22です。
 
 - HTTP Proxy
 
-   サーバーへの接続にプロキシを使用します(SSH over HTTP)。使用する場合は、yesに設定してから |settingicon| ボタンでプロキシの情報を設定してください。
+ サーバーへの接続にプロキシを使用します(SSH over HTTP)。使用する場合は、yesに設定してから |settingicon| ボタンでプロキシの情報を設定してください。
 
 - User Name
 - Private Key
 - Password
 
-   サーバーにSSH接続する際のアカウント情報を入力します。
+ サーバーにSSH接続する際のアカウント情報を入力します。
 
-   - パスワード認証の場合
+ - パスワード認証の場合
 
-      :guilabel:`User Name` にユーザー名、 :guilabel:`Password` にパスワードを入力してください。 :guilabel:`Private Key` は使用しません。
+  :guilabel:`User Name` にユーザー名、 :guilabel:`Password` にパスワードを入力してください。 :guilabel:`Private Key` は使用しません。
 
-   - 公開鍵認証の場合
+ - 公開鍵認証の場合
 
-      :guilabel:`User Name` にユーザー名を入力し、 :guilabel:`Private Key` をクリックして秘密鍵ファイルを選択してください（ |clear| でクリア）。パスフレーズが設定されている場合は :guilabel:`Password` に入力してください。
+  :guilabel:`User Name` にユーザー名を入力し、 :guilabel:`Private Key` をクリックして秘密鍵ファイルを選択してください（ |clear| でクリア）。パスフレーズが設定されている場合は :guilabel:`Password` に入力してください。
 
-      .. hint:: PuTTY形式の秘密鍵ファイル（拡張子 :file:`.ppk` ）はそのままではお使いいただけません。PEM形式またはOpenSSH形式に変換してお使いください。
+  .. hint:: PuTTY形式の秘密鍵ファイル（拡張子 :file:`.ppk` ）はそのままではお使いいただけません。PEM形式またはOpenSSH形式に変換してお使いください。
 
 .. |settingicon| image:: /img/setting.png
 .. |clear| image:: /img/clear.png
@@ -57,7 +57,6 @@
 
 - または、ウィンドウ内の情報をコピーし、 support.nano@advancesoft.jp 宛にご希望の製品・ライセンス種別と併せてお送りください。
 
-
 .. _licensefile:
 
 ライセンスファイル設定
@@ -76,10 +75,33 @@
 
 ライセンスファイル設定後、ライセンスサーバーを起動するには、 :guilabel:`Start` タブを開き、 :guilabel:`Execute \`lmgrd'` をクリックします。
 
-- 同時に、製品の実行に必要なライセンスファイルパスの設定も行われます。環境変数 :envvar:`ADVANCED_LICENSE_FILE` を改めて設定する必要はありません。
-
 .. hint:: 本ツールを終了しても、ライセンスサーバーは起動したままの状態になります。
 
 ライセンスサーバーを終了するには、 :guilabel:`Stop` タブを開き、 :guilabel:`Execute \`lmdown'` をクリックします。
 
 ライセンスサーバーの状態を表示するには、 :guilabel:`Status` タブを開き、 :guilabel:`Execute \`lmstat'` をクリックします。
+
+.. _use:
+
+製品の使用
+============
+
+Advance/NanoLabo
+---------------------
+
+NanoLaboを使用するマシンで、NanoLaboインストール先の :file:`license` フォルダにライセンスファイル :file:`nanolabo.lic` を入れてください。
+
+Advance/NeuralMD
+---------------------
+
+- ライセンスサーバーと同じマシンでNeuralMDを実行する場合
+
+ ライセンスサーバー起動時に、製品の実行に必要なライセンスファイルパスの設定も行われます。環境変数 :envvar:`ADVANCED_LICENSE_FILE` を改めて設定する必要はありません。
+
+- ライセンスサーバーと別のマシンでNeuralMDを実行する場合
+
+ NeuralMDを実行するマシンのアクセスできる場所にライセンスファイル :file:`neumd.lic` を置き、実行方法に応じていずれかの設定をしてください。
+   
+ - 直接実行する場合：パスを環境変数 :envvar:`ADVANCED_LICENSE_FILE` に設定
+ - 同じマシンのNanoLaboからローカル実行する場合： :menuselection:`左上メニュー --> Properties --> Advance/NeuralMD` でファイルを選択
+ - 別のマシンのNanoLaboからリモート実行する場合： ジョブスクリプト内でパスを環境変数 :envvar:`ADVANCED_LICENSE_FILE` に設定

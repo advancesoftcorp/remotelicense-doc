@@ -63,3 +63,8 @@ html_favicon = 'img/favicon.ico'
 
 locale_dirs = ["../locale"]
 gettext_additional_targets = ['literal-block']
+
+
+# -- Options for LaTeX output ------------------------------------------------
+
+latex_engine = 'platex'

@@ -68,3 +68,9 @@ gettext_additional_targets = ['literal-block']
 # -- Options for LaTeX output ------------------------------------------------
 
 latex_engine = 'platex'
+
+
+# -- Extension configuration -------------------------------------------------
+
+def setup(app):
+    app.add_css_file('css/custom.css')

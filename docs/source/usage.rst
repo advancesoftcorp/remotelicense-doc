@@ -55,7 +55,12 @@
 
 - :guilabel:`Mail` をクリックするとデフォルトのメールソフトで発行依頼メールの作成画面が開きますので、内容を記入してお送りください。
 
-- または、ウィンドウ内の情報をコピーし、 support.nano@advancesoft.jp 宛にご希望の製品・ライセンス種別と併せてお送りください。
+- または、ウィンドウ内の情報をコピーし、 `support.nano@advancesoft.jp <mailto:support.nano@advancesoft.jp>`_ `*`:sup: 宛にご希望の製品・ライセンス種別と併せてお送りください。
+
+.. role:: smallnote
+   :class: small-note
+
+:smallnote:`* このメールアドレスへの特定電子メール（広告・宣伝メール）の送信を拒否いたします。`
 
 .. _licensefile:
 

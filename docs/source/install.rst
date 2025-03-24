@@ -9,7 +9,7 @@
 
 インストーラーを以下のリンクからダウンロードしてください。
 
- `remoteLicense (ver.1.2) <https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=2037>`_
+ `remoteLicense (ver.1.2) <https://www.apps.advancesoft.jp/nanolabo/install_remotelicense_windows_v1.2.exe>`_
 
 .. _installer:
 

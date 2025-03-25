@@ -10,7 +10,7 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
+import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
@@ -63,6 +63,8 @@ html_favicon = 'img/favicon.ico'
 
 locale_dirs = ["../locale"]
 gettext_additional_targets = ['literal-block']
+
+html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "/")
 
 
 # -- Options for LaTeX output ------------------------------------------------
